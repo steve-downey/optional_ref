@@ -83,6 +83,10 @@ There is some implementation divergence in optionals about deep const for `optio
 Where deeper constness is desired, `optional<const T&>` would prevent non const access to the underlying object.
 
 
+# References
+
+[JeanHeyd Meneide](https://thephd.dev/to-bind-and-loose-a-reference-optional)
+
 # Wording
 Modify 22.5 Optional Objects
 
