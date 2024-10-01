@@ -398,10 +398,6 @@ return self.has_value() ? U(*std::forward<Self>(self)) : U(il, std::forward<Args
     \pnum
     \ensures
     \tcode{*this} does not refer to a value.
-
-    \pnum
-    \remarks
-    For every object type \tcode{T} these constructors are constexpr constructors\iref{dcl.constexpr}.
   \end{itemdescr}
 
   \indexlibraryctor{optional}%
@@ -678,10 +674,6 @@ This destructor is trivial.
     \pnum
     \returns
     \tcode{val}.
-
-    \pnum
-    \remarks
-    These functions are constexpr functions.
   \end{itemdescr}
 
   \indexlibrarymember{operator*}{optional}%
@@ -697,10 +689,6 @@ This destructor is trivial.
     \pnum
     \returns
     \tcode{*val}.
-
-    \pnum
-    \remarks
-    These functions are constexpr functions.
   \end{itemdescr}
 
   \indexlibrarymember{operator bool}{optional}%
@@ -712,10 +700,6 @@ This destructor is trivial.
     \pnum
     \returns
     \tcode{true} if and only if \tcode{*this} refers to a value.
-
-    \pnum
-    \remarks
-    This function is a constexpr function.
   \end{itemdescr}
 
   \indexlibrarymember{has_value}{optional}%
@@ -727,10 +711,6 @@ This destructor is trivial.
     \pnum
     \returns
     \tcode{true} if and only if \tcode{*this} refers to a value.
-
-    \pnum
-    \remarks
-    This function is a constexpr function.
   \end{itemdescr}
 
   \indexlibrarymember{value}{optional}%
